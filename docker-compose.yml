@@ -10,9 +10,6 @@ services:
     environment:
       - REDIS_HOST=redis
       - REDIS_PORT=6379
-      - BUCKET_REPLENISH_RATE=2
-      - BUCKET_CAPACITY=10
-      - TOKENS_PER_REQUEST=1
     depends_on:
       - redis
 
