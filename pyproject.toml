@@ -1,7 +1,7 @@
 [project]
 name = "rate-limiter-example"
 version = "0.1.0"
-description = "Add your description here"
+description = "An example rate limited app built using FastAPI and Redis."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
