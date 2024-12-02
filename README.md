@@ -10,7 +10,7 @@ The application exposes a simple API endpoint (`/api/example`) that is protected
 
 ## Rate Limiting Configuration
 
-The system implements a token bucket algorithm with the following parameters found in `src/main.py`:
+The system implements a token bucket algorithm with the following parameters found in [`src/main.py`](src/main.py):
 
 ```python
 # Number of tokens to add to the bucket per second
