@@ -2,7 +2,7 @@
 
 This project demonstrates the implementation of rate limiting in a FastAPI application using the token bucket algorithm and Redis for state management. The implementation provides practical insights into protecting API endpoints from excessive usage through a proven rate limiting approach.
 
-For a detailed explanation of the implementation and concepts, please read the accompanying blog post: [Rate Limiting Basics with FastAPI and Redis](bryananthonio.com/blog/rate-limiting-basics)
+For a detailed explanation of the implementation and concepts, please read the accompanying blog post: [Rate Limiting Basics with FastAPI and Redis](bryananthonio.com/blog/rate-limiting-basics).
 
 ## Overview
 
