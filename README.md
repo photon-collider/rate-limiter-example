@@ -10,11 +10,18 @@ The application exposes a simple API endpoint (`/api/example`) that is protected
 
 ## Rate Limiting Configuration
 
-The system implements a token bucket algorithm with the following parameters:
+The system implements a token bucket algorithm with the following parameters found in `src/main.py`:
 
-- Token replenishment rate: 2 tokens per second
-- Maximum bucket capacity: 10 tokens
-- Tokens required per request: 1 token
+```python
+# Number of tokens to add to the bucket per second
+BUCKET_REPLENISH_RATE = 2
+
+# Max number of tokens the bucket can carry
+BUCKET_CAPACITY = 10
+
+# Number of tokens needed to make a request
+TOKENS_PER_REQUEST = 1
+```
 
 This configuration allows for brief bursts of up to 10 requests while maintaining a steady-state rate of 2 requests per second.
 
